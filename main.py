@@ -20,7 +20,7 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=["start"])
 def start(msg):
-    bot.reply_to(msg, "Salom, bot ishlavotd ! ")
+    bot.reply_to(msg, "Salom, bot ishlayapti ! ")
 
 
 # obuna bolish kerak bolgan kanallar
@@ -115,3 +115,4 @@ def all_messages(message):
 
 
 bot.polling()
+
