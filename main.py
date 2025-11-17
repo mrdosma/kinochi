@@ -38,7 +38,7 @@ def check_user(user_id):
 # databasaga saqlash
 from pymongo import MongoClient
 
-MONGO_URL = ""
+MONGO_URL = "https://downloads.mongodb.com/compass/mongosh-2.5.9-x64.msi" ,"mongosh "mongodb+srv://kinochi.l0u51kz.mongodb.net/" --apiVersion 1 --username mrdosma_db_user --password s2N4YIv2KIaDT4v7"
 client = MongoClient(MONGO_URL)
 
 db = client["kinochi_bot"]
@@ -103,4 +103,5 @@ def all_messages(message):
         bot.send_message(message.chat.id, "Noto'g'ri formatdagi kod")
 
 bot.polling()
+
 
