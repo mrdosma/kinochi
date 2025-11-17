@@ -1,0 +1,5 @@
+telebot
+python-dotenv
+dnspython
+pymongo
+pyTelegramBotAPI
